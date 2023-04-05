@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: rgb(145, 174, 182);
 }
 
@@ -96,42 +96,42 @@ button:hover {
   width: 60%;
   display: flex;
   justify-content: flex-end;
-} 
+}
 
 #contact {
-    width: 60%;
-    margin: 2rem auto 0;
-  }
-  
-  .contact-h2 {
-    margin-bottom: 2rem;
-  }
-  
-  #contact p {
-    text-align: left;
-    margin-bottom: 1.5rem;
-  }
-  
-  .contact-list {
-    text-align: left;
-    list-style-position: inside;
-    padding-left: 2rem;
-  }
-  
-  .time {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 0 0.5rem;
-    margin: 0 0.5rem;
-    font-weight: 500;
-  }
-  
-  footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    margin: 1.5rem 1rem;
-    border: 2px solid black;
-  }
+  width: 60%;
+  margin: 2rem auto 0;
+}
+
+.contact-h2 {
+  margin-bottom: 2rem;
+}
+
+#contact p {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.contact-list {
+  text-align: left;
+  list-style-position: inside;
+  padding-left: 2rem;
+}
+
+.time {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 0.5rem;
+  margin: 0 0.5rem;
+  font-weight: 500;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 1.5rem 1rem;
+  border: 2px solid black;
+}
