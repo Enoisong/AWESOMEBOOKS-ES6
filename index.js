@@ -1,7 +1,7 @@
-import { DateTime } from './modules/html-const.js';
-import * as DisplaySections from './modules/mainsection.js';
-import Book from './modules/export.js';
-import Books from './modules/remove.js';
+import { DateTime } from './modules/app.js';
+import * as DisplaySections from './modules/add.js';
+import Book from './modules/library.js';
+import Books from './modules/list.js';
 
 const form = document.getElementById('form');
 const title = document.getElementById('title');
@@ -21,7 +21,7 @@ setInterval(() => {
 formSection.style.display = 'none';
 contact.style.display = 'none';
 
-formLink.addEventListener('click, DisplaySections.showForm');
+formLink.addEventListener('click', DisplaySections.showForm);
 contactLink.addEventListener('click', DisplaySections.showContact);
 listLink.addEventListener('click', DisplaySections.showList);
 
@@ -35,7 +35,7 @@ form.onsubmit = (e) => {
     e.preventDefault();
     count += 1;
     books.addBook(new Book(title.value, author.value, count));
-    localStorage.setItem('court', count);
+    localStorage.setItem('count', count);
     DisplaySections.showList();
     form.reset();
 };

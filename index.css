@@ -1,9 +1,9 @@
-/* css reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Comic Neue', cursive;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: rgb(145, 174, 182);
 }
 
@@ -97,10 +97,8 @@ button:hover {
   width: 60%;
   display: flex;
   justify-content: flex-end;
-}
+} 
 
- 
-/* contact section*/
 #contact {
     width: 60%;
     margin: 2rem auto 0;

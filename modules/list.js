@@ -27,13 +27,13 @@ export default class Books {
         if(savedBooks) {
             this.books = JSON.parse(savedBooks);
         }else{
-            this.books = [];        
+        this.books = [];        
         }
     }
 
     renderBooks = () => {
         const bookList = document.getElementById("books-list");
-        bookList.innerHTML = "";
+        bookList.innerHTML = '';
 
         this.books.forEach((book) => {
             const li = document.createElement('li');
