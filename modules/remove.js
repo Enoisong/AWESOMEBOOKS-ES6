@@ -23,15 +23,11 @@ export default class Books {
     }
 
     getbooks = () => {
-        const saveBooks = localStorage.getItem('books');
-    }
-    
-    getbooks = () => {
-        const saveBooks = localStorage.getItem('books');
+        const savedBooks = localStorage.getItem('books');
         if(savedBooks) {
-            this.books = JSON.parse(saveBooks);
-        } else {
-            this.books = [];
+            this.books = JSON.parse(savedBooks);
+        }else{
+            this.books = [];        
         }
     }
 

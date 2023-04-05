@@ -10,6 +10,12 @@ export const showForm = () => {
 
 export const showList = () => {
     formSection.style.display = 'none';
+    contact.style.display ='none';
+    list.style.display = 'block';    
+};
+
+export const showContact = () => {
+    formSection.style.display = 'none';
     contact.style.display ='block';
     list.style.display = 'none';    
-}
+};
