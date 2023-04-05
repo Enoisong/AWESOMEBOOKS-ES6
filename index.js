@@ -14,7 +14,7 @@ const formLink = document.getElementById('form-link');
 const contactLink = document.getElementById('contact-link');
 
 setInterval(() => {
-    const now = DateTime.now().toLocalString(DateTime.DATETIME_MED);
+    const now = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
     time.innerHTML = now;
 }, 1000);
 
