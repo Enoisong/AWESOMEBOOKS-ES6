@@ -24,7 +24,7 @@
 <!-- PROJECT DESCRIPTION -->
 # 📖  AWESOMEBOOKS-ES6 PROJECT <a name="about-project"></a> 
  
-AWESOMEBOOKS-ES6 Project is a website designed with the ability to add, remove and store books
+AWESOMEBOOKS Project is a website designed with the ability to add, remove and store books
 
 ## 🛠 Built With <a name="built-with"></a>
 - HTML
