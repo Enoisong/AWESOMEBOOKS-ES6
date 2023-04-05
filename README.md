@@ -24,12 +24,12 @@
 <!-- PROJECT DESCRIPTION -->
 # 📖  AWESOMEBOOKS-ES6 PROJECT <a name="about-project"></a> 
  
-AWESOMEBOOKS-ES6 Project is a website designed with the ability to add, remove and store books
+AWESOMEBOOKS Project is a website designed with the ability to add, remove and store books
 
 ## 🛠 Built With <a name="built-with"></a>
 - HTML
 - CSS
-- javascript
+- JavaScript
 - ES6 modules
 - library Luxon
 
@@ -94,7 +94,6 @@ It will be deployed after merge
 - GitHub: [@githubhandle](https://github.com/Enoisong)
 - Twitter: [@twitterhandle](https://twitter.com/Enobongmisong)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/enobong-isong/)
-
 
 ## 🔭 Future Features <a name="future-features"></a>
 -   To Add more dynamics to the project; feature like animation 

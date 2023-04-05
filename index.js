@@ -14,8 +14,8 @@ const formLink = document.getElementById('form-link');
 const contactLink = document.getElementById('contact-link');
 
 setInterval(() => {
-    const now = DateTime.now().toLocalString(DateTime.DATETIME_MED);
-    time.innerHTML = now;
+  const now = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
+  time.innerHTML = now;
 }, 1000);
 
 formSection.style.display = 'none';
@@ -28,16 +28,16 @@ listLink.addEventListener('click', DisplaySections.showList);
 const books = new Books();
 
 let count = localStorage.getItem('count')
-? Number(localStorage.getItem('count'))
-: 0;
+  ? Number(localStorage.getItem('count'))
+  : 0;
 
 form.onsubmit = (e) => {
-    e.preventDefault();
-    count += 1;
-    books.addBook(new Book(title.value, author.value, count));
-    localStorage.setItem('count', count);
-    DisplaySections.showList();
-    form.reset();
+  e.preventDefault();
+  count += 1;
+  books.addBook(new Book(title.value, author.value, count));
+  localStorage.setItem('count', count);
+  DisplaySections.showList();
+  form.reset();
 };
 
 books.getbooks();
