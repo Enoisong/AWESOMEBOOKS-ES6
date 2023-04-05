@@ -95,7 +95,6 @@ It will be deployed after merge
 - Twitter: [@twitterhandle](https://twitter.com/Enobongmisong)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/enobong-isong/)
 
-
 ## 🔭 Future Features <a name="future-features"></a>
 -   To Add more dynamics to the project; feature like animation 
     and transition
