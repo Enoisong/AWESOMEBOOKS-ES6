@@ -29,7 +29,7 @@ AWESOMEBOOKS-ES6 Project is a website designed with the ability to add, remove a
 ## 🛠 Built With <a name="built-with"></a>
 - HTML
 - CSS
-- javascript
+- JavaScript
 - ES6 modules
 - library Luxon
 
