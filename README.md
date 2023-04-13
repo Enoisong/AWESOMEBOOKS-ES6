@@ -49,7 +49,7 @@ AWESOMEBOOKS Project is a website designed with the ability to add, remove and s
 
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="live-demo"></a>
- 
+  https://enoisong.github.io/AWESOMEBOOKS-ES6/
 
 ## 💻 Getting Started <a name="getting-started"></a>
 clone from repository: https://github.com/Enoisong/AWESOMEBOOKS-ES6.git
